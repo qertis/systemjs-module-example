@@ -1,5 +1,6 @@
 export class Hello {
   constructor() {
-    console.log('Hello ES6 World runtime in Browser!');
+    const helloStr = 'Hello ES6 World in Browser!';
+    document.write(`<h1>${helloStr}</h1>`);
   }
 }
